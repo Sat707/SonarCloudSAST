@@ -35,7 +35,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=Sat707
+            -Dsonar.organization=sat707
             -Dsonar.projectKey=Sat707_SonarCloudSAST
             -Dsonar.projectName=SonarCloudSAST
             -Dsonar.sources=.
